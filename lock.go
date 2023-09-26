@@ -29,7 +29,7 @@ const (
 // RedisLock .
 type RedisLock struct {
 	RedClients 		[]RedisClient
-	successClients 	[]RedisClient
+	successClients 		[]RedisClient
 	Client     		RedisClient
 	Key        		string // resources that need to be locked
 	uuid       		string // lock owner uuid
