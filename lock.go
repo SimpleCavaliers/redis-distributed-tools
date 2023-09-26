@@ -59,8 +59,8 @@ func NewRedLock(clients []RedisClient, key string) (*RedisLock, error) {
 	}
 	return &RedisLock{
 		RedClients: 	clients,
-		Key:    		key,
-		uuid:   		id.String(),
+		Key:    	key,
+		uuid:   	id.String(),
 		retryTimes: 	10,
 		successClients: []RedisClient{},
 	}, nil
