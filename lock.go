@@ -26,7 +26,7 @@ const (
 	ErrLockFailed = "ErrLockFailed"
 )
 
-// RedisLock .
+// RedisLock
 type RedisLock struct {
 	RedClients 		[]RedisClient
 	successClients 		[]RedisClient
