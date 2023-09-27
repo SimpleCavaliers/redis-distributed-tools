@@ -4,3 +4,6 @@ This tool was developed on top of this repo(https://github.com/zehuamama/redis-t
 
 # Quick Start
 Running lock_test.go
+
+# TODO
+- [ ] Improving error and exception handling for goroutine.
